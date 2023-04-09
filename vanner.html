@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>(경)박진희 덕질 시작(축)</title>
+    <style>
+        .head {
+            background-color: aquamarine;
+            width: 500px;
+            height: 200px;
+            text-align: center;
+            box-shadow: 0px 0px 5px 0px gray;
+        }
+
+        .banner {
+            font-size: 90px;
+            margin: 15px;
+        }
+
+        .cafe {
+            font-size: 45px;
+            margin: 10px;
+        }
+
+        .que>button:hover {
+            border: 2px solid aquamarine
+        }
+
+        .text {
+            font-style: italic
+        }
+    </style>
+    <script>
+        function doAction() {
+            alert("태환, 이태환, 940115/ GON, 이원서, 950807/ 혜성, 박혜성, 960117/ Ahxian, 박성국, 960327/ 영광, 안영준, 970922");
+        }
+        function text1() {
+            alert("흰 구름뒤에 가려")
+        }
+    </script>
+</head>
+
+<body>
+    <div class="head">
+        <h1 class="banner">BANNER</h1>
+        <h1 class="cafe">공식카페 등업 답안</h1>
+    </div>
+    <div class="d-grid gap-2">
+    </div>
+    <div class="que">
+        <h3>02. VANNER 멤버의 활동명, 본명, 생년월일(YYMMDD)을 나이순으로 작성해주시기 바랍니다.</h3>
+        <h5>- 영문 활동명은 영문으로, 본명은 한글로 작성해주시기 바랍니다.</h5>
+        <!-- <button type="button" class="age">정답확인</button> -->
+        <button onclick="doAction()">정답 확인</button>
+        <br>
+        <br>
+        <br>
+        <h3>03. 다음은 VANNER 노래 중 한 곡의 가사 일부입니다.</h3>
+        <h5>빈칸에 들어갈 가사를 적어주세요</h5>
+        <div class="text">
+            '후회 없이 춤을 추며 높이 날던 너란 새
+            [ ] 숨어버린 너란 빛 내 품에 안고 싶어 꼭 너를 갖고 싶어'
+        </div>
+        <textarea placeholder="-> (빈칸에 들어갈 답변만 작성)" rows="10" cols="50" name="description"></textarea><br>
+        <!-- <button oneclick="text()">정답 확인</button> -->
+        <button onclick="text1()">정답 확인</button>
+    </div>
+</body>
+
+</html>
